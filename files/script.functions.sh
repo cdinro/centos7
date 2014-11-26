@@ -1669,8 +1669,6 @@ ${whiptailBin} --backtitle "${GUIbacktitle}" --title "Deploy Shibboleth customiz
 
 	updateJettyAddingIDPWar
 	
-	fixIdpMetadata
-
 restartJettyService
 
 enableJettyOnRestart
